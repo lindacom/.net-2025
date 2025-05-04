@@ -6,6 +6,8 @@ Arrays are indicated by square brackets. You need to specify type. Arrays have a
 
 N.b. you cannot mix types in an array
 
+CREATE AN ARRAY
+
 Array example
 To create an array enter the following in a method:
 
@@ -27,19 +29,37 @@ To crate an array and fill it at the same time:
 
 var groceryList = new string [3] {"milk", "chese", "apples"}
 
+GET ITEMS IN AN ARRAY
+
 To get items in the array by index:
+
+```
 
 groceryList[2] or Console.WriteLine(groceryList[2]);
 
+```
+
+RESIZE AN ARRAY
+
 To resize the array:
+
+```
 
 array.Resize(ref groceryList, 6);
 
+```
+
 You can then add more items to the array. N.b. ref you can get a variable by reference.
+
+LOOP THROUGH AN ARRAY
 
 To access all items in the array you can use a for each loop. e.g.
 
+```
+
 foreach (var grocery in groceryList) { Console.WriteLine(grocery); }
+
+```
 
 Multidimensional array
 -------------------------
