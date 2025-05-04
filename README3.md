@@ -82,16 +82,18 @@ No need to specify size. Uses system.collection.gneric. Before method ener publi
 
 To create a list:
 
+```
+
 var awesomeSauces = new List();
-
+```
 To add to list:
-
+```
 awesomeSauces.add("tobasco");
-
+```
 To get an item
-
+```
 awesomeSauces[0]
-
+```
 N.b. you can also sort (sort() to sort alphabetically) and reverse items in a list.
 
 Linq
