@@ -1,6 +1,7 @@
 Arrays and colections
 =======================
 Arrays
+------
 Arrays are indicated by square brackets. You need to specify type. Arrays have a fixed size which is set when you create the array. Arrays contain positions.
 
 N.b. you cannot mix types in an array
