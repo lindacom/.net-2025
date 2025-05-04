@@ -121,28 +121,31 @@ A dictionary Uses key value pairs. Need to specify type of key and type of value
 
 To create a dictionary:
 
+```
+
 var dictionaryWords = newDictionary<string, sring>();
-
+```
 To add to dictionary:
-
+```
 dictionaryWords.Add("var", "shorthand for variable");
-
+```
 To access dictionary item by key:
-
+```
 dictionaryWords["var"]
-
+```
 To count items in a dictionary:
-
+```
 dictionaryWords.count or Console.WriteLine("Count: {0}", dictionaryWords.Count);
-
+```
 To return all keys in a dictionary:
-
+```
 dictionaryWords.keys
-
+```
 To find an item in the dictionary by key:
-
+```
 Console.WriteLine("Keyvalue:{0}, dictionaryWords["var"]);
-
+```
 To search for an item in the dictionary by either key or value:
-
+```
 Console.WriteLine(dictionaryWords.ContainsKey("var"); Console.WriteLine(dictionaryWords.ContainsValue("shorthand for variable");
+```
