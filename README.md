@@ -10,3 +10,7 @@ Create a model, view and controller file and write code
 Run the application 3.Publishing an MVC application - rght click and select publish
 Nb. packages folder does not get checked into source control file. Pakcages.config file specifies packages needed and these are brought in when the application is built.
 
+Tutorials
+=========
+Build an MVC restaurant app - https://www.youtube.com/watch?v=q9X3SDEZtpw
+
