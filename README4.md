@@ -23,3 +23,7 @@ returning 0 indicates success and any other number indicates fail.
 The base class of every exception is exception. 
 
 You can add finally block after try catch for code that will always execute even if there is an exception.
+
+Tutorials
+==========
+Error handline - https://www.youtube.com/watch?v=T_kOi6J0040
