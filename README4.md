@@ -1,7 +1,5 @@
 Exception handling
 ======================
-if code has exception error the application will stop running. (N.b. web app will redirect to a default error page.) When code has error an exception objct is created and works backwards through the code to find the point in the code that cn handle the exception.
-
 You need to handle the exception to prevent the user experiencing this eror and to stop the application from crashing.
 
 1. run code in debug
@@ -12,7 +10,7 @@ try {
   DoSomething();
   }
   catch (exception err) {
-  Console.riteLine("Error has occurred");
+  Console.WriteLine("Error has occurred");
   }
   ```
 
